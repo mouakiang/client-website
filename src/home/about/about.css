@@ -1,6 +1,6 @@
-.content {
-    background-color: black;
-    color: white;
+.aboutContent {
+    background-color: white;
+    color: black;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -9,13 +9,13 @@
     
 }
 
-.apptWrap {
+.aboutWrap {
     display: flex;
     flex-direction: row;
     
 }
 
-.photo {
+.blockPhoto {
     width: 50%;
     justify-content: center;
 }
@@ -25,7 +25,9 @@ p {
     text-align: center;
 }
 
-button {
+.aboutBtn {
     padding: .5rem; 
-    background-color: white;
+    background-color: black;
+    color: white;
+    border: none;
 }

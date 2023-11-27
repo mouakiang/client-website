@@ -1,6 +1,5 @@
 .topnav {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     position: sticky;
     width: 100%;
@@ -37,6 +36,11 @@
     align-items: center;
     justify-content: center;
     padding: 0 1rem;
-    margin: 1rem;
+    margin: 1.5rem;
     border-radius: 2rem;
+}
+
+h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 15px;
 }

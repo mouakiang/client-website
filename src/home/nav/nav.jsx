@@ -7,9 +7,9 @@ export function Nav () {
         <div className="topnav" id="myTopNav">
             <div className="navName"><img src={logo} alt='logo' className='navLogo'/></div>
             <div className="navLinks">
-                <h3>Link 1</h3>
-                <h3>Link 2</h3>
-                <h3>Link 3</h3>
+                <h3>HOME</h3>
+                <h3>ABOUT</h3>
+                <h3>LOCATION</h3>
             </div>
                 <button className='navContactBtn'>
                     <img src={contactImg} alt='contact' className='contactBtnImg' />Contact Me</button>

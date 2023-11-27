@@ -1,12 +1,12 @@
 import './App.css';
-import {Nav} from './components/nav/nav.jsx'
-import { Appt } from './components/appt/appt.jsx';
+import {Nav} from './home/nav/nav.jsx'
+import { Home } from './home/home.jsx'
 
 function App() {
   return (
     <>
     <Nav />
-    <Appt />
+    <Home />
     </>
   );
 }

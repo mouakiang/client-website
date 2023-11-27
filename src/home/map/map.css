@@ -1,6 +1,6 @@
-.content {
-    background-color: black;
-    color: white;
+.mapContent {
+    background-color: white;
+    color: black;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     
 }
 
-.apptWrap {
+.mapWrap {
     display: flex;
     flex-direction: row;
     
@@ -25,7 +25,9 @@ p {
     text-align: center;
 }
 
-button {
+.mapBtn {
     padding: .5rem; 
-    background-color: white;
+    background-color: black;
+    color: white;
+    border: none;
 }
