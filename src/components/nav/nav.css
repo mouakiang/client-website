@@ -1,0 +1,21 @@
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+.navLogo {
+    width: 20%;
+    padding: .75rem;
+
+}
