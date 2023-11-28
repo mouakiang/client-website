@@ -1,18 +1,12 @@
 import "./appt.css";
 import apptImg from "../../assets/mountain.jpg";
 import arrow from "../../assets/arrow.png";
-import {useNavigate} from 'react-router-dom'
+import { Link} from 'react-router-dom'
 
 
 
 
 export default function Appt() {
-
-const navigate = useNavigate()
-
-  const handleClick = () => {
-    navigate("/appointment")
-  }
 
   return (
     <div className="apptWrap">
@@ -24,9 +18,11 @@ const navigate = useNavigate()
           time and date for our meeting. Let's connect and discuss your needs at
           a time that works best for you!
         </p>
-        <button className="schdBtn" onClick={handleClick}>
+        <Link to="/appointment">
+        <button className="schdBtn">
           Schedule Here <img src={arrow} alt="arrow" className="arrowImg" />
         </button>
+        </Link>
       </div>
 
       <img src={apptImg} alt="appointment" className="blockPhoto" />
