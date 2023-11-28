@@ -1,18 +1,36 @@
-import "./appt.css"
-import apptImg from '../../assets/mountain.jpg'
+import "./appt.css";
+import apptImg from "../../assets/mountain.jpg";
+import arrow from "../../assets/arrow.png";
+import {useNavigate} from 'react-router-dom'
 
-export default function Appt () {
-    return (
-        <div className="apptWrap">
-            <div className="apptContent">
-                <h1>Make an Appointment</h1>
-                <p> Here's some text about how you should make an appointment 
-                    or how to do that or whatever.</p>
-                <button> Click here</button>    
-            </div>
-        
-                <img src={apptImg} alt="appointment" className="blockPhoto" />
-        </div>
 
-    )
+
+
+export default function Appt() {
+
+const navigate = useNavigate()
+
+  const handleClick = () => {
+    navigate("/appointment")
+  }
+
+  return (
+    <div className="apptWrap">
+      <div className="apptContent">
+        <h1>Make an Appointment</h1>
+        <p>
+          {" "}
+          Schedule your appointment with ease - click here to find a convenient
+          time and date for our meeting. Let's connect and discuss your needs at
+          a time that works best for you!
+        </p>
+        <button className="schdBtn" onClick={handleClick}>
+          Schedule Here <img src={arrow} alt="arrow" className="arrowImg" />
+        </button>
+      </div>
+
+      <img src={apptImg} alt="appointment" className="blockPhoto" />
+    </div>
+  );
 }
+

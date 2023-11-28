@@ -1,7 +1,7 @@
 .apptContent {
     background-color: black;
     color: white;
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,7 @@
 }
 
 .photo {
-    width: 50%;
+    width: 60%;
     justify-content: center;
 }
 
@@ -28,4 +28,17 @@ button {
     padding: .5rem; 
     background-color: white;
     border: none;
+}
+
+.schdBtn {
+    background-color: black;
+    color: white;
+
+    .arrowImg {
+        width: 14%;
+        padding-left: 1rem;
+
+        
+    }
+
 }
