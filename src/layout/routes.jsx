@@ -4,6 +4,7 @@ import Home from '../home/home';
 import Appointment from '../components/appointment/appointment';
 import Location from '../components/location/location'
 import About from '../components/about/about';
+import NotFound from "./notFound.jsx"
 
 export default function RoutesComponent () {
     return (
@@ -12,6 +13,7 @@ export default function RoutesComponent () {
             <Route path='/appointment' element={<Appointment />} />
             <Route path='/about' element={<About />} />
             <Route path='/location' element={<Location />} />
+            <Route path="*" element={<NotFound />} />
         </Routes>
     )
 }

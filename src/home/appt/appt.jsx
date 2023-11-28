@@ -11,7 +11,7 @@ export default function Appt() {
   return (
     <div className="apptWrap">
       <div className="apptContent">
-        <h1>Make an Appointment</h1>
+        <h1>MAKE AN APPOINTMENT</h1>
         <p>
           Schedule your appointment with ease - click here to find a convenient
           time and date for our meeting. Let's connect and discuss your needs at

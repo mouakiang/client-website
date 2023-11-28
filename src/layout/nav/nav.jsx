@@ -7,7 +7,9 @@ import { NavLink, Link } from "react-router-dom";
 export function Nav() {
   return (
     <div className="topnav" id="myTopNav">
-      <img src={logo} alt="logo" className="navLogo" />
+        <img src={logo} alt="logo" className="navLogo" />
+      
+
       <nav className="navLinks">
         <h3>
           <NavLink to="/" exact="true" activeClassName="active">

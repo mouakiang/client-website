@@ -21,13 +21,16 @@
 }
 
 p {
-    margin: 2rem;
+    margin: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
     text-align: center;
 }
 
 .mapBtn {
     background-color: black;
     color: white;
+    font-family: 'DM Sans', sans-serif;
 
     .arrowImg {
         width: 14%;
