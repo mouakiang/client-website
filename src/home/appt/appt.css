@@ -15,7 +15,7 @@
 }
 
 .photo {
-    width: 60%;
+    width: 0%;
     justify-content: center;
 }
 
@@ -33,9 +33,6 @@ button {
 .schdBtn {
     background-color: black;
     color: white;
-    border: 1px solid white;
-    width: 200px;
-
 
     .arrowImg {
         width: 14%;
