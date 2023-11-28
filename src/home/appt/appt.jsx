@@ -1,7 +1,7 @@
 import "./appt.css"
 import apptImg from '../../assets/mountain.jpg'
 
-export function Appt () {
+export default function Appt () {
     return (
         <div className="apptWrap">
             <div className="apptContent">

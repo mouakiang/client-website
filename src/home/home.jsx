@@ -1,12 +1,12 @@
-import { Appt } from "./appt/appt"
-import { About } from "./about/about"
-import { Map } from "./map/map"
+import  Appt  from './appt/appt';
+import Abt from './abt/abt';
+import  Map  from './map/map';
 
-export function Home () {
+export default function Home () {
     return (
         <>
         <Appt />
-        <About />
+        <Abt />
         <Map />
         </>
     )

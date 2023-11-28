@@ -1,7 +1,7 @@
 import "./map.css"
 import mapImg from '../../assets/map.jpg'
 
-export function Map () {
+export default function Map () {
     return (
         <div className="mapWrap">
             <div className="mapContent">

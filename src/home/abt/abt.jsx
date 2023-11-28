@@ -1,7 +1,7 @@
-import "./about.css"
+import "./abt.css"
 import aboutImg from '../../assets/about.jpg'
 
-export function About () {
+export default function Abt () {
     return (
         <div className="aboutWrap">
             <img src={aboutImg} alt="map" className="blockPhoto" />
@@ -13,8 +13,6 @@ export function About () {
                 </p>
                 <button className="aboutBtn"> About Me </button>    
             </div>
-            
         </div>
-
     )
 }
