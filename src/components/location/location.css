@@ -1,0 +1,11 @@
+.locationPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.googleMaps {
+  height: 600px;
+  width: 800px;
+}
