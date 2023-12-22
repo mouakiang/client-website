@@ -11,19 +11,24 @@ import {
 export default function Location() {
   const apiKey = process.env.REACT_APP_GOOGLE_MAPS_API_KEY;
   const mapId = process.env.REACT_APP_MAP_ID;
-  const position = { lat: 37.159119, lng: -80.420555 };
+  const position = { lat: 38.40345602761793, lng: -78.90998065876424 };
 
-  // for whatever reason the mapID is not working which is keeping me from being able
-  // to style the map and make a pin
+  //still not able to update the map styles on the google cloud website. annoying.
 
   return (
     <div className="locationPage">
       <h2>Location Page</h2>
       <APIProvider apiKey={apiKey}>
         <div className="googleMaps">
-          <Map zoom={9} center={position} mapId={mapId}>
+          <Map zoom={17} center={position} mapId={mapId}>
             <AdvancedMarker position={position}>
-              <Pin background={"red"} borderColor={"white"} />
+              <Pin
+                background={"green"}
+                glyphColor={"#0D5A27"}
+                borderColor={"#0D5A27"}
+              />
+              <InfoWindow />
+              {/* address in here  */}
             </AdvancedMarker>
           </Map>
         </div>
