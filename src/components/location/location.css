@@ -18,8 +18,8 @@
 }
 
 .googleMaps {
-  height: 600px;
-  width: 800px;
+  height: 50lvh;
+  width: 60lvw;
 }
 
 .address {
@@ -49,5 +49,9 @@
   .googleMaps {
     height: 400px;
     width: 100%;
+  }
+
+  .hours {
+    text-align: center;
   }
 }
