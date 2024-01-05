@@ -14,7 +14,7 @@ export default function Map() {
         </p>
         <Link to="/location">
           <button className="mapBtn">
-            Map Button <img src={arrow} alt="arrow" className="arrowImg" />
+            Find My Location <img src={arrow} alt="arrow" className="arrowImg" />
           </button>
         </Link>
       </div>
