@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Routes} from 'react-router-dom';
-import Home from '../home/home';
-import Appointment from '../components/appointment/appointment';
-import Location from '../components/location/location'
-import About from '../components/about/about';
+import Home from '../home/home.jsx';
+import Appointment from '../components/appointment/appointment.jsx';
+import Location from '../components/location/location.jsx'
+import About from '../components/about/about.jsx';
 import NotFound from "./notFound.jsx"
 
 export default function RoutesComponent () {
