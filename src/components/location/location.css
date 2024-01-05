@@ -5,7 +5,28 @@
   align-items: center;
 }
 
+.map-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.map-text {
+  margin: 0 50px 0 0;
+}
+
 .googleMaps {
   height: 600px;
   width: 800px;
+}
+
+.address {
+  margin-bottom: 20px;
+}
+
+.hours {
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
