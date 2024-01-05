@@ -15,6 +15,7 @@ export default function Location() {
   const position = { lat: 38.403256, lng: -78.909981 };
   const stevenKiaLink =
     "https://www.google.com/maps/place/Steven+Kia/@38.403456,-78.909981,17z/data=!4m6!3m5!1s0x89b49394272b7d37:0x3caba5359e4e59c1!8m2!3d38.4033133!4d-78.909974!16s%2Fg%2F1tdcsdvt?hl=en-US&entry=ttu";
+  const officialKiaLink = "https://maps.app.goo.gl/WPMrJg4CS7YUv1NK8";
   const [open, setOpen] = useState(false);
 
   //still not able to update the map styles on the google cloud website. annoying.
@@ -27,8 +28,10 @@ export default function Location() {
           <div className="map-frame">
             <span className="map-text">
               <p className="address">
-                3340 S Main St <br />
-                Harrisonburg, VA 22801
+                <Link to={officialKiaLink} target="_blank">
+                  3340 S Main St <br />
+                  Harrisonburg, VA 22801
+                </Link>
               </p>
 
               <span className="hours">
