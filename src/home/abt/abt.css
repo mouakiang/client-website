@@ -1,0 +1,45 @@
+.aboutContent {
+    background-color: white;
+    color: black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.aboutWrap {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.blockPhoto {
+    width: 60%;
+    justify-content: center;
+}
+
+p {
+    margin: 1rem;
+    text-align: center;
+}
+
+.aboutBtn {
+    padding: .5rem; 
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-family: 'DM Sans', sans-serif;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    
+}
+
+h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+}

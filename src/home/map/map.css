@@ -1,0 +1,41 @@
+.mapContent {
+    background-color: black;
+    color: white;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mapWrap {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.photo {
+    width: 60%;
+    justify-content: center;
+}
+
+p {
+    margin: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    text-align: center;
+}
+
+.mapBtn {
+    background-color: black;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+
+    .arrowImg {
+        width: 14%;
+        padding-left: 1rem;
+
+        
+    }
+}
