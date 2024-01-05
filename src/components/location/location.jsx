@@ -31,8 +31,6 @@ export default function Location() {
                 glyphColor={"#0D5A27"}
                 borderColor={"#0D5A27"}
               />
-              <InfoWindow />
-              {/* address in here  */}
             </AdvancedMarker>
             {open ? (
               <InfoWindow
