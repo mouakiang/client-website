@@ -32,6 +32,11 @@ p {
     color: black;
     border: 1px solid black;
     font-family: 'DM Sans', sans-serif;
+
+    &:hover {
+        color: rgb(16, 79, 41);
+        cursor: pointer;
+    }
 }
 
 p {

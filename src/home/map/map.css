@@ -33,6 +33,11 @@ p {
     color: white;
     font-family: 'DM Sans', sans-serif;
 
+    &:hover {
+        color: white;
+        cursor: pointer;
+    }
+
     .arrowImg {
         width: 14%;
         padding-left: 1rem;
