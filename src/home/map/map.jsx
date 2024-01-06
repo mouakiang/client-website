@@ -1,6 +1,6 @@
 import "./map.css";
 import arrow from "../../assets/arrow.png";
-import mapImg from "../../assets/map.jpg";
+import mapImg from "../../assets/LocPhoto.jpg";
 import { Link } from "react-router-dom";
 
 export default function Map() {

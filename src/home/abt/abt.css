@@ -12,6 +12,7 @@
 .aboutWrap {
     display: flex;
     flex-direction: row;
+    height: 39rem;
     
 }
 
