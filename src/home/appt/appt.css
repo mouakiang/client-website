@@ -35,6 +35,11 @@ button {
     background-color: black;
     color: white;
     font-family: 'DM Sans', sans-serif;
+    
+    &:hover {
+        color: white;
+        cursor: pointer;
+    }
 
     .arrowImg {
         width: 14%;
