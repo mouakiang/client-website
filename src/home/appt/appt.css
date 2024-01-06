@@ -12,6 +12,7 @@
 .apptWrap {
     display: flex;
     flex-direction: row;
+    height: 36rem;
 }
 
 .photo {

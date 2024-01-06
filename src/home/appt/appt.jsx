@@ -1,5 +1,5 @@
 import "./appt.css";
-import apptImg from "../../assets/mountain.jpg";
+import apptImg from "../../assets/calendar-appointment.png";
 import arrow from "../../assets/arrow.png";
 import { Link} from 'react-router-dom'
 

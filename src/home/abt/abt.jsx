@@ -1,5 +1,5 @@
 import "./abt.css";
-import aboutImg from "../../assets/about.jpg";
+import aboutImg from "../../assets/SVEdit01.jpg";
 import { Link } from "react-router-dom";
 
 export default function Abt() {
