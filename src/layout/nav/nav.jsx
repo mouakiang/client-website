@@ -26,9 +26,14 @@ export function Nav() {
             LOCATION
           </NavLink>
         </h3>
+        <h3>
+          <NavLink to="/appointment" exact="true" activeClassName="active">
+            APPOINTMENT
+          </NavLink>
+        </h3>
       </nav>
       <button className="navContactBtn">
-        <Link to="contact">
+        <Link to="/contact">
           <img src={contactImg} alt="contact" className="contactBtnImg" />
           Contact Me
         </Link>
