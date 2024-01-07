@@ -33,7 +33,7 @@ export function Nav() {
         </h3>
       </nav>
       <button className="navContactBtn">
-        <Link to="/contact">
+        <Link to="contact">
           <img src={contactImg} alt="contact" className="contactBtnImg" />
           Contact Me
         </Link>
