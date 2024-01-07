@@ -80,3 +80,28 @@
   .contactParag {
     font-family: 'DM Sans', sans-serif;
   }
+
+  @media only screen and (max-width: 600px) {
+    .contactForm {
+      padding: 15px;
+    }
+  
+    input[type="submit"] {
+      padding: 8px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 455px) {
+    .contactForm {
+      padding: 10px;
+      width: 80%;
+
+      .contactPage {
+        height: 100%;
+      }
+    }
+  
+    input[type="submit"] {
+      padding: 6px 0;
+    }
+  }
