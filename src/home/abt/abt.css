@@ -6,14 +6,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin: 0 auto;
 }
 
 .aboutWrap {
     display: flex;
     flex-direction: row;
     height: 39rem;
-    
 }
 
 .blockPhoto {
@@ -42,10 +41,131 @@ p {
 p {
     font-family: 'DM Sans', sans-serif;
     font-size: 15px;
-    
 }
 
 h1 {
     font-family: 'DM Sans', sans-serif;
     font-size: 40px;
 }
+
+/* Media Queries */
+@media (max-width: 1400px) {
+    .aboutContent {
+        width: 80%;
+    }
+
+    .aboutWrap {
+        height: 33rem;
+    }
+
+    .blockPhoto {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 1160px) {
+    .abouttContent {
+        width: 80%;
+    }
+
+    .aboutWrap {
+        height: 30rem;
+    }
+
+    .blockPhoto {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 37px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 1010px) {
+
+    .aboutWrap {
+        height: 25rem;
+    }
+
+}
+
+@media (max-width: 915px) {
+    .aboutContent {
+        width: 80%;
+    }
+
+    .aboutWrap {
+        height: 20rem;
+    }
+
+    .blockPhoto {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 760px) {
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 665px) {
+
+    h1 {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 568px) {
+    .aboutContent {
+        width: 80%;
+    }
+
+    .aboutWrap {
+        height: 15rem;
+    }
+
+    .blockPhoto {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
+
