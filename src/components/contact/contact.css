@@ -65,3 +65,18 @@
   .message.success {
     color: green;
   }
+
+  .contactDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactH1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .contactParag {
+    font-family: 'DM Sans', sans-serif;
+  }

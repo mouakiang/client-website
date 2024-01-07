@@ -32,6 +32,10 @@ export default function Contact() {
 
   return (
     <div className="contactPage">
+        <div className="contactDetail">
+            <h1 className="contactH1">Contact Us</h1>
+            <p className="contactParag">Please fill out the form below and we will contact you as soon as possible.</p>
+        </div>
       <form className="contactForm" ref={form} onSubmit={sendEmail}>
         <div className="formGroup">
           <label htmlFor="user_name">Name</label>
