@@ -51,6 +51,12 @@ button {
 }
 
 /*Media Queries*/
+@media (min-width: 1600px) {
+    .apptWrap {
+        height: 38rem;
+    }
+}
+
 @media (max-width: 1400px) {
     .apptContent {
         width: 80%;
