@@ -20,7 +20,7 @@ export default function Appt() {
         </Link>
       </div>
 
-      <img src={apptImg} alt="appointment" className="appt-photo" />
+      <img src={apptImg} alt="appointment" className="blockPhoto" />
     </div>
   );
 }

@@ -32,7 +32,7 @@
   margin: 0;
 }
 
-.appt-photo {
+.blockPhoto {
   width: 60%;
 }
 
@@ -65,9 +65,9 @@ button {
 
 /*Media Queries*/
 @media (min-width: 1600px) {
-    .apptWrap {
-        height: 38rem;
-    }
+  .apptWrap {
+    height: 38rem;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -168,18 +168,25 @@ button {
   }
 
   .apptWrap {
-    height: 15rem;
+    height: 12rem;
   }
 
   .blockPhoto {
     width: 80%;
   }
 
-  h1 {
-    font-size: 13px;
+  .apptWrap button {
+    padding-top: 0.5rem;
+    font-size: 0.625rem;
   }
 
-  p {
-    font-size: 10px;
+  .apptContent h1 {
+    font-size: 0.8125rem;
+    padding: 0;
+  }
+
+  .apptContent p {
+    font-size: 0.5rem;
+    padding: 1rem;
   }
 }

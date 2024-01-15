@@ -1,174 +1,190 @@
 .mapContent {
-    background-color: black;
-    color: white;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+  background-color: black;
+  color: white;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .mapWrap {
-    display: flex;
-    flex-direction: row;
-    height: 36rem;
-    
+  display: flex;
+  flex-direction: row;
+  height: 36rem;
 }
 
 .photo {
-    width: 60%;
-    justify-content: center;
+  width: 60%;
+  justify-content: center;
 }
 
 p {
-    margin: 1rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    text-align: center;
+  margin: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  text-align: center;
+}
+
+.mapContent button {
+  font-weight: 600;
 }
 
 .mapBtn {
-    background-color: black;
+  background-color: black;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+
+  &:hover {
     color: white;
-    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+  }
 
-    &:hover {
-        color: white;
-        cursor: pointer;
-    }
-
-    .arrowImg {
-        width: 14%;
-        padding-left: 1rem;
-
-        
-    }
+  .arrowImg {
+    width: 14%;
+    padding-left: 1rem;
+  }
 }
 
 /*Media Queries*/
 @media (min-width: 1600px) {
-    .mapWrap {
-        height: 38rem;
-    }
+  .mapWrap {
+    height: 38rem;
+  }
 }
 
 @media (max-width: 1400px) {
-    .mapContent {
-        width: 80%;
-    }
+  .mapContent {
+    width: 80%;
+  }
 
-    .mapWrap {
-        height: 33rem;
-    }
+  .mapWrap {
+    height: 33rem;
+  }
 
-    .blockPhoto {
-        width: 80%;
-    }
+  .blockPhoto {
+    width: 80%;
+  }
 
-    h1 {
-        font-size: 40px;
-    }
+  h1 {
+    font-size: 40px;
+  }
 
-    p {
-        font-size: 15px;
-    }
-
+  p {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 1160px) {
-    .mapContent {
-        width: 80%;
-    }
+  .mapContent {
+    width: 80%;
+  }
 
-    .mapWrap {
-        height: 30rem;
-    }
+  .mapWrap {
+    height: 30rem;
+  }
 
-    .blockPhoto {
-        width: 80%;
-    }
+  .blockPhoto {
+    width: 80%;
+  }
 
-    h1 {
-        font-size: 37px;
-    }
+  h1 {
+    font-size: 37px;
+  }
 
-    p {
-        font-size: 13px;
-    }
-
+  p {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 1010px) {
-
-    .mapWrap {
-        height: 25rem;
-    }
-
+  .mapWrap {
+    height: 25rem;
+  }
 }
 
 @media (max-width: 915px) {
-    .mapContent {
-        width: 80%;
-    }
+  .mapContent {
+    width: 80%;
+  }
 
-    .mapWrap {
-        height: 20rem;
-    }
+  .mapWrap {
+    height: 20rem;
+  }
 
-    .blockPhoto {
-        width: 80%;
-    }
+  .blockPhoto {
+    width: 80%;
+  }
 
-    h1 {
-        font-size: 30px;
-    }
+  h1 {
+    font-size: 30px;
+  }
 
-    p {
-        font-size: 13px;
-    }
+  p {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 760px) {
+  h1 {
+    font-size: 20px;
+  }
 
-    h1 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 11px;
-    }
+  p {
+    font-size: 11px;
+  }
 }
 
 @media (max-width: 665px) {
+  h1 {
+    font-size: 13px;
+  }
 
-    h1 {
-        font-size: 13px;
-    }
-
-    p {
-        font-size: 10px;
-    }
+  p {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 568px) {
-    .mapContent {
-        width: 80%;
-    }
+  .mapWrap {
+    height: 15rem;
+  }
 
+  .blockPhoto {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 13px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  @media (max-width: 540px) {
     .mapWrap {
-        height: 15rem;
+      height: 12rem;
     }
 
     .blockPhoto {
-        width: 80%;
+      width: 60%;
     }
 
     h1 {
-        font-size: 13px;
+      font-size: 0.8125rem;
     }
 
-    p {
-        font-size: 10px;
+    .mapContent p {
+      font-size: 0.6rem;
+      margin: 0;
+      padding: 0 1rem;
     }
+
+    .mapContent button {
+      font-size: 0.6rem;
+      margin: 0;
+      margin-top: 1rem;
+    }
+  }
 }
