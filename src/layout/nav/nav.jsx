@@ -33,13 +33,13 @@ export function Nav() {
               APPOINTMENT
             </NavLink>
           </h3>
-          <button className="navContactBtn">
-            <Link to="contact">
-              <img src={contactImg} alt="contact" className="contactBtnImg" />
-              Contact Me
-            </Link>
-          </button>
         </div>
+        <button className="navContactBtn">
+          <Link to="contact">
+            <img src={contactImg} alt="contact" className="contactBtnImg" />
+            Contact Me
+          </Link>
+        </button>
         <img
           src={burger}
           alt="burgerMenu"

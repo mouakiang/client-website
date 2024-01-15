@@ -102,4 +102,7 @@ h3 {
   .desktop-menu {
     display: none;
   }
+  .navContactBtn {
+    display: none;
+  }
 }
