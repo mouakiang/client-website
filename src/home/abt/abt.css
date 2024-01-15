@@ -6,13 +6,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    margin: 0 auto;
 }
 
 .aboutWrap {
     display: flex;
     flex-direction: row;
-    
+    height: 39rem;
 }
 
 .blockPhoto {
@@ -31,15 +31,149 @@ p {
     color: black;
     border: 1px solid black;
     font-family: 'DM Sans', sans-serif;
+
+    &:hover {
+        color: rgb(16, 79, 41);
+        cursor: pointer;
+    }
 }
 
 p {
     font-family: 'DM Sans', sans-serif;
-    font-size: 15px;
-    
+    font-size: 1rem;
 }
 
 h1 {
     font-family: 'DM Sans', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
+
+/* Media Queries */
+@media (min-width: 1600px) {
+    .aboutWrap {
+        height: 42rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    .aboutContent {
+        width: 80%;
+    }
+
+    .aboutWrap {
+        height: 33rem;
+    }
+
+    .blockPhoto {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 1160px) {
+    .abouttContent {
+        width: 80%;
+    }
+
+    .aboutWrap {
+        height: 30rem;
+    }
+
+    .blockPhoto {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 2.31rem;
+    }
+
+    p {
+        font-size: 0.813rem;
+    }
+
+}
+
+@media (max-width: 1010px) {
+
+    .aboutWrap {
+        height: 25rem;
+    }
+
+}
+
+@media (max-width: 915px) {
+    .aboutContent {
+        width: 80%;
+    }
+
+    .aboutWrap {
+        height: 20rem;
+    }
+
+    .blockPhoto {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 1.875rem;
+    }
+
+    p {
+        font-size: 0.813rem;
+    }
+}
+
+@media (max-width: 760px) {
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 0.688rem;
+    }
+}
+
+@media (max-width: 665px) {
+
+    h1 {
+        font-size: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        font-size: 0.375rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .aboutContent {
+        width: 80%;
+    }
+
+    .aboutWrap {
+        height: 15rem;
+    }
+
+    .blockPhoto {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 0.625rem;
+    }
+
+    p {
+        font-size: 0.5rem;
+    }
+}
+

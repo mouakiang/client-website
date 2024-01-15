@@ -29,6 +29,8 @@ export default function Location() {
             <span className="map-text">
               <p className="address">
                 <Link to={officialKiaLink} target="_blank">
+                  <b>Steven Kia </b>
+                  <br />
                   3340 S Main St <br />
                   Harrisonburg, VA 22801
                 </Link>
