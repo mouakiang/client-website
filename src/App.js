@@ -1,12 +1,12 @@
-import './App.css';
-import { Layout } from './layout/layout.jsx';
+import './App.css'
+import { Layout } from './layout/layout.jsx'
 
-function App() {
+function App () {
   return (
     <>
-    <Layout />
+      <Layout />
     </>
-  );
+  )
 }
 
-export default App;
+export default App

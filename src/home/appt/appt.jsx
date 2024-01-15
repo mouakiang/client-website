@@ -1,13 +1,9 @@
 import "./appt.css";
 import apptImg from "../../assets/calendar-appointment.png";
 import arrow from "../../assets/arrow.png";
-import { Link} from 'react-router-dom'
-
-
-
+import { Link } from "react-router-dom";
 
 export default function Appt() {
-
   return (
     <div className="apptWrap">
       <div className="apptContent">
@@ -18,14 +14,13 @@ export default function Appt() {
           a time that works best for you!
         </p>
         <Link to="/appointment">
-        <button className="schdBtn">
-          Schedule Here <img src={arrow} alt="arrow" className="arrowImg" />
-        </button>
+          <button className="schdBtn">
+            Schedule Here <img src={arrow} alt="arrow" className="arrowImg" />
+          </button>
         </Link>
       </div>
 
-      <img src={apptImg} alt="appointment" className="blockPhoto" />
+      <img src={apptImg} alt="appointment" className="appt-photo" />
     </div>
   );
 }
-
