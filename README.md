@@ -17,9 +17,10 @@ Here is a working live demo :  https://client-website.onrender.com/
 
 ### Landing Page
 
-![](./src/assets/Website01.png)(./src/assets/Website02.png)
+![](./src/assets/Website01.png)
 
 ### Location
+
 ![](./src/assets/Location.png)
 
 ### Appointment
@@ -27,6 +28,7 @@ Here is a working live demo :  https://client-website.onrender.com/
 ![](./src/assets/Appointment.png)
 
 ### Contact 
+
 ![](./src/assets/Contact02.png)
 
 
@@ -44,6 +46,8 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 - [React](https://www.w3schools.com/react/default.asp) - JavaScript library for building user interfaces.
 - [CSS](https://www.w3schools.com/css/default.asp) - The language that's used to style an HTML document or if using JSX used to style JSX components.
 - [JSX](https://www.w3schools.com/react/react_jsx.asp) - Allows us to write HTML in react.
+- [Acuity Scheduling](https://www.acuityscheduling.com/?utm_campaign=acuity&utm_medium=referral&utm_source=scheduling) - Flexibility to schedule appointments, block out dates and choose what you want for appointment creating.
+- [EmailJS](https://www.emailjs.com/docs/examples/reactjs/) - EmailJS allows emails to be sent from your contact form to your email.
 
 
 ## Team
