@@ -72,7 +72,7 @@ h3 {
 }
 
 .burgerMenu {
-  height: 5rem;
+  height: 2.5rem;
   display: none;
   object-fit: cover;
   padding-top: 0.5rem;
@@ -81,8 +81,8 @@ h3 {
 
 .mobile-menu {
   position: absolute;
-  top: 6rem;
-  right: 2rem;
+  top: 6.2rem;
+  right: 0;
   z-index: 100000;
   display: flex;
   flex-direction: column;
@@ -98,6 +98,8 @@ h3 {
 @media screen and (max-width: 750px) {
   .burgerMenu {
     display: flex;
+    align-self: center;
+    padding-right: 1rem;
   }
   .desktop-menu {
     display: none;

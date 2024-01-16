@@ -19,8 +19,9 @@ export default function Appt() {
           </button>
         </Link>
       </div>
-
-      <img src={apptImg} alt="appointment" className="blockPhoto" />
+      <div className="photo-frame">
+        <img src={apptImg} alt="appointment" className="blockPhoto" />
+      </div>
     </div>
   );
 }

@@ -1,3 +1,7 @@
+#root {
+  width: 100%;
+}
+
 .apptContent {
   background-color: black;
   color: white;
@@ -32,8 +36,14 @@
   margin: 0;
 }
 
+.photo-frame {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
 .blockPhoto {
-  width: 60%;
+  flex-grow: 1;
 }
 
 p {
@@ -143,15 +153,36 @@ button {
 }
 
 @media (max-width: 760px) {
-  h1 {
-    font-size: 20px;
+  .apptWrap {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
   }
 
-  p {
-    font-size: 11px;
+  .apptContent {
+    width: 100%;
+    padding: 1rem 0;
+    order: 2;
+  }
+
+  .photo-frame {
+    height: 286px;
+    overflow: hidden;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .apptWrap img {
+    width: 100%;
+    order: 1;
+    margin: 0;
+    object-fit: ;
   }
 }
 
+/* 
 @media (max-width: 665px) {
   h1 {
     font-size: 13px;
@@ -188,5 +219,6 @@ button {
   .apptContent p {
     font-size: 0.5rem;
     padding: 1rem;
-  }
-}
+  } */
+
+/* } */

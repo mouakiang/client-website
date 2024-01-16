@@ -126,16 +126,26 @@ p {
 }
 
 @media (max-width: 760px) {
-  h1 {
-    font-size: 20px;
+  .mapWrap {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
   }
 
-  p {
-    font-size: 11px;
+  .mapContent {
+    width: 100%;
+    padding: 1rem 0;
+    order: 2;
+  }
+
+  .mapWrap img {
+    width: 100%;
+    order: 1;
   }
 }
 
-@media (max-width: 665px) {
+/* @media (max-width: 665px) {
   h1 {
     font-size: 13px;
   }
@@ -187,4 +197,4 @@ p {
       margin-top: 1rem;
     }
   }
-}
+} */
