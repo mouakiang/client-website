@@ -23,7 +23,7 @@ export default function Location() {
   return (
     <>
       <div className="locationPage">
-        <h2>Location Page</h2>
+        <h2 className="locHeader">Location Page</h2>
         <APIProvider apiKey={apiKey}>
           <div className="map-frame">
             <span className="map-text">
