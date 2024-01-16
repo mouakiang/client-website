@@ -4,7 +4,7 @@ import { Layout } from './layout/layout.jsx'
 function App () {
   return (
     <>
-      <Layout />
+      <Layout className='main-body' />
     </>
   )
 }
