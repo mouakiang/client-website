@@ -1,4 +1,3 @@
-# ![WebApp](./src/assets/Website01.png)
 # Client Website
 <table>
 <tr>
