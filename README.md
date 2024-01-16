@@ -52,7 +52,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Team
 
-[<img src="./src/assets/head-image.png" alt="Kia Moua" width="100" height="150">](https://github.com/mouakiang) | [<img src="./src/assets/profile-vert.jpg" alt="Greg Topscher" width="100" height="150">](https://github.com/cozyfestiv)
+[<img src="./src/assets/head-image.png" alt="Kia Moua" width="100" height="140">](https://github.com/mouakiang) | [<img src="./src/assets/profile-vert.jpg" alt="Greg Topscher" width="100" height="140">](https://github.com/cozyfestiv)
 
 [Kia Moua ](https://github.com/mouakiang) |[Greg Topscher](https://github.com/cozyfestiv)
 
