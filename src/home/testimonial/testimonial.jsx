@@ -20,8 +20,8 @@ export default function TestimonialSlider () {
             <p>{testimonials[currentSlide]?.testimonial}</p>
             <span>{testimonials[currentSlide]?.author}</span>
           </div>
-          <button onClick={prevSlide}>&lt;</button>
-          <button onClick={nextSlide}>&gt;</button>
+          <button className="testimonial-button" onClick={prevSlide}>&lt;</button>
+          <button className="testimonial-button" onClick={nextSlide}>&gt;</button>
         </div>
       );
     
