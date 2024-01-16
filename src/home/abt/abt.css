@@ -79,15 +79,9 @@ h1 {
 }
 
 @media (max-width: 1160px) {
-<<<<<<< HEAD
-  .abouttContent {
+  .aboutContent {
     width: 80%;
-  }
-=======
-    .aboutContent {
-        width: 80%;
     }
->>>>>>> dev
 
   .aboutWrap {
     height: 30rem;
