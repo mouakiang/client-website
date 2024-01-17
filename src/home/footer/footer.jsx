@@ -2,7 +2,7 @@ import "./footer.css";
 
 export function Footer() {
   return (
-    <div className="footer-wrap">
+    <footer className="footer-wrap">
       <div className="social-icons">
         <a
           href="https://www.facebook.com/"
@@ -36,6 +36,6 @@ export function Footer() {
       <div>
         Copyright © 2024 Sai Vang // Web design by Kiang Moua and Greg Topscher
       </div>
-    </div>
+    </footer>
   );
 }
