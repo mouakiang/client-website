@@ -1,14 +1,12 @@
 import './App.css'
-import { Layout } from './layout/layout.jsx'
-import '@fortawesome/fontawesome-free/css/all.min.css'
+import Layout from './layout/layout.jsx';
 
-function App () {
+export default function App () {
   return (
 
-    <>
+    <div>
       <Layout />
-    </>
+    </div>
   )
 };
 
-export default App

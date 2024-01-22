@@ -4,7 +4,7 @@ import "./layout.css";
 import RoutesComponent from "./routes.jsx";
 import { Footer } from "../home/footer/footer.jsx";
 
-export function Layout() {
+export default function Layout() {
   return (
     <>
       <Nav />
